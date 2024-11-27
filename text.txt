@@ -1,0 +1,48 @@
+agenda: end to end datascience project.
+Require for ml end to end project:
+1. install anaconda
+2. git and github repository
+3. project setup
+4. requirement.txt
+
+step1. create different environemnet for different project. different projects should be in different folder so that you can create different environment in particular folder to create packages. 
+
+
+open terminal:
+    1. creating a new environment in that folder for all packages.
+    creating venv environment in terminal: conda create -p venv python==3.11.5
+    2. activating the environemnet:
+    in terminal: conda activate venv/
+    3. create github repository 
+        create README.md file (to write description for the project)
+        git init
+        to track file:git add README.md
+        git status 
+
+        git branch -M main
+        git branch
+        git remote add origin https://github.com/pushpaneupane710/01_ML_project.git
+
+        refresh github. you sync project to github repository.
+
+
+        git pull origin main
+
+    4. create file requirements.txt
+     in this file you write all packages name
+     and can install all written packages by using command in the terminal.
+
+     in terminal: pip install -r requirements.txt
+
+     5. setup.py file
+     (make entire application a complete package, so this packege you can import)
+     we normally make packages of the projects after we finish projects.
+
+    python setup.py install
+
+
+using '-e .'
+    pip install -r requirements.txt
+
+
+
