@@ -140,3 +140,13 @@ git push origin main
 
 tutorial 4
 
+
+git status
+git add .
+git status
+git commit -m "Project structure"
+git push origin main
+
+#####################################################
+
+
