@@ -1,3 +1,5 @@
+tutorial 1:
+
 agenda: end to end datascience project.
 Require for ml end to end project:
 1. install anaconda
@@ -117,6 +119,8 @@ for filepath in list_of_files:
 
 in terminal: python template.py 
 Note : I deleted src also, then run python template.py
+note: pip install logger
+note: no need to pip install os because os is in-built module in python 
 
 Python-OS-Module Functions
 Here we will discuss some important functions of the Python os module :
@@ -125,3 +129,14 @@ Here we will discuss some important functions of the Python os module :
         Creating a Directory
         Listing out Files and Directories with Python
         Deleting Directory or Files using Python
+    
+git status
+git add .
+git status
+git commit -m "Project structure"
+git push origin main
+
+#####################################################
+
+tutorial 4
+
